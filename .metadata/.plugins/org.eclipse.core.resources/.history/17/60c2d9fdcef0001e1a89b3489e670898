@@ -1,0 +1,13 @@
+package lemonDB;
+
+public class Database {
+	protected String databaseName;
+
+	public database() {
+		this("unnamed");
+	}
+	public database(String name) {
+		this.databaseName = name;
+	}
+
+}

@@ -1,0 +1,15 @@
+package lemonDB;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Database MyDatabase = new Database("My Database", new Table[] {new Table()});
+		System.out.println(MyDatabase);
+		Column col = new Column("MyColumn", new boolean[] {false});
+		System.out.println(col.getName());
+		System.out.println(col.getClass());
+		Mixed mx = new Mixed("s");
+		System.out.println(mx.type());
+	}
+
+}

@@ -1,0 +1,9 @@
+package lemonDB;
+
+public class Typetester {
+
+	public Typetester() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

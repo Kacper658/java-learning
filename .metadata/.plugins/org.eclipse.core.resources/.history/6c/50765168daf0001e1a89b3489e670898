@@ -1,0 +1,13 @@
+package lemonDB;
+
+public class Table extends database {
+	protected String tableName;
+
+	public Table() {
+		this("unnamed");
+	}
+	public Table(String name) {
+		this.tableName = name;
+	}
+
+}

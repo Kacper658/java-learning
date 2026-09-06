@@ -1,0 +1,9 @@
+package lemonDB;
+
+public class Column {
+
+	public Column() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

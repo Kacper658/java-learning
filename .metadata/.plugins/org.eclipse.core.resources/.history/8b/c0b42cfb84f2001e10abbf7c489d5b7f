@@ -1,0 +1,28 @@
+package lemonDB;
+
+public class Typetester {
+	String printType(byte x) {
+        return "byte";
+    }
+    String printType(int x) {
+        return "int";
+    }
+    String printType(float x) {
+        return "float";
+    }
+    String printType(double x) {
+        return "double";
+    }
+    String printType(char x) {
+        return "char";
+    }
+    String printType(boolean x) {
+    	return "boolean";
+    }
+    String printType(short x) {
+    	return "short";
+    }
+    String printType(long x) {
+    	return "long";
+    }
+}

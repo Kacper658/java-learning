@@ -1,0 +1,31 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int diagonal = 10;
+		char at = '$';
+		createCircle(diagonal, at);
+	}
+	private static void createCircle(int diagonal, char chr) {
+		int width = 1;
+		for (int i = 1; i<=diagonal+1; i++) {
+			for (int j = width; j<=diagonal/2+1; j++) {
+				System.out.print(" ");
+			}
+			for (int j = width*2; j>0; j--) {
+				System.out.print(chr);
+			}
+//			for (int j = width; j<=diagonal/2; j++) {
+//				System.out.print(" ");
+//			}
+			System.out.println("");
+			if (i<=diagonal/2) {
+				width++;
+			}
+			else {
+				width--;
+			}
+		}
+	}
+
+}

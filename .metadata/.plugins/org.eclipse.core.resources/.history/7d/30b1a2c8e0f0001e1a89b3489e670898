@@ -1,0 +1,18 @@
+package lemonDB;
+
+public class Table {
+	protected String tableName;
+	protected Column[] columns;
+
+	public Table() {
+		this("unnamed");
+	}
+	public Table(String name) {
+		this(name, new Column[] {});
+	}
+	public Table(String name, Column[] columns) {
+		this.tableName = name;
+		this.columns = columns;
+	}
+
+}
